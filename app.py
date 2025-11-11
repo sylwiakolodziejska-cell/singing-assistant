@@ -23,8 +23,9 @@ st.markdown("**I am Your personal singing assistant, powered by GPT-5 and RAG te
 st.markdown("I help You improve technique, expand your range, maintain vocal health and perform with confidence.  \nI provide guidance on breath control, resonance, articulation, vocal exercises, stage presence and expressive song interpretation.")
 
 # Initial image
-# st.markdown("**Vocal cord structure (illustrative image)**")
-st.image("images/singing_assistant_chatbot.png", width=200)
+col1, col2, col3 = st.columns([1, 3, 1])
+with col2: # Umieść zawartość w środkowej kolumnie
+    st.image("images/singing_assistant_chatbot.png", width=300)
 
 # Add a collapsible section
 with st.expander("ℹ️ About this app", expanded = False):
