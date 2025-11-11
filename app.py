@@ -63,6 +63,7 @@ with st.sidebar:
         # Reset the page
         st.rerun()
 
+# Render a horizontal line
 st.divider()
 
 # Render all previous messages
