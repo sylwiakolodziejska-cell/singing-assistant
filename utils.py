@@ -4,8 +4,6 @@ from dotenv import load_dotenv
 from os import getenv
 from json import loads
 from base64 import b64encode
-from PIL import Image
-from io import BytesIO
 from typing import List, Dict, Any
 from openai import OpenAI
 
