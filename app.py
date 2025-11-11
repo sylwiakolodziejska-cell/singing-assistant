@@ -11,12 +11,12 @@ from utils import (
 
 # App configurations
 st.set_page_config(
-    page_title="Singing RAG ChatBot", 
+    page_title="Singing RAG Assistant", 
     page_icon=':material/chat_bubble:', # speech bubble icon 
     layout='centered')
 
 # Add a title to the app
-st.title("🎤 Singing RAG ChatBot") # include a bot emoji
+st.title("🎤 Singing RAG Assistant") # include a bot emoji
 
 # Add a description to the app
 st.markdown("**I am Your personal singing assistant, powered by GPT-5 and RAG technology.**")
@@ -24,7 +24,7 @@ st.markdown("I help You improve technique, expand your range, maintain vocal hea
 
 # Initial image
 # st.markdown("**Vocal cord structure (illustrative image)**")
-st.image("images/vocal_cords.png", width=200)
+st.image("images/singing_assistant_chatbot.png", width=200)
 
 # Add a collapsible section
 with st.expander("ℹ️ About this app", expanded = False):
