@@ -106,3 +106,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+.env
+.streamlit/secrets.toml
+.env
